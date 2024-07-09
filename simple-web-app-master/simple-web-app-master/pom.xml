@@ -141,8 +141,20 @@
 	            		<artifactId>*</artifactId>
         	    	</exclusion>
 	            </exclusions>
-        	</dependency>
-	</dependencies>
+	    </dependency>
+             <dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>javax.annotation</groupId>
+        <artifactId>javax.annotation-api</artifactId>
+        <version>1.3.2</version>
+    </dependency>
+    <!-- Add other dependencies as required -->
+</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
